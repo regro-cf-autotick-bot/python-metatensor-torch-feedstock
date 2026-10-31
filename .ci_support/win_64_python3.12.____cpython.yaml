@@ -7,7 +7,7 @@ channel_targets:
 cxx_compiler:
 - vs2022
 libtorch:
-- '2.13'
+- '2.14'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -15,6 +15,6 @@ pin_run_as_build:
 python:
 - 3.12.* *_cpython
 pytorch:
-- '2.13'
+- '2.14'
 target_platform:
 - win-64
